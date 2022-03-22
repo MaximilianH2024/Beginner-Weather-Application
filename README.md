@@ -1,2 +1,2 @@
 # Beginner-Weather-Application
-One of my first beginner side projects as a computer science student. Uses the openweather database as a means to easily import data to use in my application.
+  One of my first beginner side projects as a computer science student. Uses the openweather database as a means to easily import data such as: current temperature, minimum, maximum, wind speeds, humidity, and pressure. Additionally, the user is given the option to select between either Imperial or Metric units before prompted with a pop up window. I chose to use pythons built in tkinter software as a means of providing readibility, as well as ease of use due to its user friendly nature when it comes to GUI based software and applications. 
