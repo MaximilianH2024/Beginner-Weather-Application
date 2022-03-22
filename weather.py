@@ -12,7 +12,7 @@ def getWeatherMetric(canvas):
 
 
     city = textfield.get()
-    api = "https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=Metric&APPID=3cc7707b3b9fea8605f38b46a28e6ee5"
+    api = "https://api.openweathermap.org/data/2.5/weather?q="+ city + "&units=Metric&APPID=3cc7707b3b9fea8605f38b46a28e6ee5"
     json_data = requests.get(api).json()
 
     condition = json_data['weather'][0]['main']
